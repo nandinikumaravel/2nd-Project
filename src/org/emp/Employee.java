@@ -42,5 +42,12 @@ System.out.println("manoj@gmail.com");
 		e.empEmail();
 		e.empName();
 		e.empPhone();
+		int a=0;
+		if (a == 0) {
+			System.out.println(a);
+		}
+		for (int i = 0; i < args.length; i++) {
+			a++;
+		}
 	}
 }
